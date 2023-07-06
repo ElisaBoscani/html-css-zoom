@@ -1,0 +1,61 @@
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--zo-dark);
+}
+header {
+  height: 6.25rem;
+}
+/* end global */
+
+/* utility */
+:root {
+  --zo-footer: #222222;
+  --zo-dark: #000000;
+  --zo-light: #ffffff;
+  --zo-light-dark: #4a4a4a;
+  --zo-btn-text: #f42734;
+  --zo-icon: #4bc800;
+}
+.container {
+  width: 118.75rem;
+  margin: 0 auto;
+}
+.d_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify_content {
+  justify-content: center;
+}
+/* end utility */
+/* debug */
+.debug header div {
+  background-color: var(--zo-light);
+  height: 3.625rem;
+  width: 3.9375rem;
+}
+.debug .d_flex div {
+  background-color: var(--zo-light);
+}
+/* end debug */
+
+/* header */
+header div {
+  position: absolute;
+  right: 0.3125rem;
+  top: 0.3125rem;
+}
+/* end header */
+/* main */
+.d_flex div {
+  height: 8.75rem;
+  width: 15rem;
+  margin: 0.3125rem;
+}
+/* end main */
