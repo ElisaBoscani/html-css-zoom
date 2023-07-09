@@ -94,10 +94,11 @@ button {
   border-radius: 5px;
   font-weight: 600;
   font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 .link {
   padding: 0.75rem;
-  background-color: var(--zo-light-dark);
 }
 /* end header */
 /* main */
