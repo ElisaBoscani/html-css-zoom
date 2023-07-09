@@ -17,13 +17,13 @@
     <header>
       <div class="link">
         <i class="fa-light fa-table-cells fa-xl" style="color: #ffffff"></i>
-        <a href="#"> Speaker View</a>
+        <button>Speaker View</button>
       </div>
     </header>
     <main class="container mrg_botton">
       <div class="d_flex justify_content scroll">
         <div>
-          <img src="https://picsum.photos/seed/picsum/300/180" alt="" />
+          <img src="https://picsum.photos/300/180?random=1" alt="" />
           <div class="name d_flex align_items">
             <span
               ><i
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div>
-          <img src="https://picsum.photos/seed/picsum/300/180" alt="" />
+          <img src="https://picsum.photos/300/180?random=2" alt="" />
           <div class="name d_flex align_items">
             <span
               ><i
@@ -387,47 +387,93 @@
       </div>
     </main>
     <footer>
-      <div class="d_flex">
+      <div class="d_flex justify">
         <div class="d_flex">
-          <div class="position">
+          <div class="d_flex_colun">
             <i
               class="fa-solid fa-microphone fa-2xl pd_left"
               style="color: #ffffff"
             ></i>
-            <h3>Mute</h3>
-            <i
-              class="fa-solid fa-chevron-up fa-2xs absolute"
-              style="color: #ffffff"
-            ></i>
+            <div>
+              <span class="name_icon">Mute</span>
+            </div>
           </div>
           <div>
+            <i
+              class="fa-solid fa-chevron-up fa-2xs"
+              style="padding-top: 25px; color: #ffffff"
+            ></i>
+          </div>
+          <div class="d_flex_colun">
             <i
               class="fa-solid fa-video fa-2xl pd_left_2"
               style="color: #ffffff"
             ></i>
-            <h3>Stop Video</h3>
+            <div>
+              <span class="name_icon">Stop Video</span>
+            </div>
+          </div>
+          <div>
             <i
-              class="fa-solid fa-chevron-up fa-2xs absolute"
-              style="color: #ffffff"
+              class="fa-solid fa-chevron-up fa-2xs"
+              style="padding-top: 25px; color: #ffffff"
             ></i>
           </div>
         </div>
 
-        <div>
-          <div>
+        <div class="d_flex justify_content">
+          <div class="d_flex_colun align_items">
             <i class="fa-solid fa-user-plus fa-2xl" style="color: #ffffff"></i>
-            <h3>Invite</h3>
+            <span class="name_icon">Invite</span>
           </div>
-          <div>
+          <div class="d_flex_colun align_items">
             <i class="fa-solid fa-user-group fa-2xl" style="color: #ffffff"></i>
-            <h3>Manage Participants</h3>
+            <span class="name_icon">Manage Participants</span>
           </div>
-          <div>
+          <div class="d_flex_colun align_items">
             <i
               class="fa-solid fa-chart-column fa-2xl"
               style="color: #ffffff"
             ></i>
-            <h3>Polling</h3>
+            <span class="name_icon">Polling</span>
+          </div>
+          <div class="d_flex_colun align_items">
+            <i
+              class="fa-solid fa-share-from-square fa-2xl"
+              style="color: #4bc800"
+            ></i>
+            <span class="name_icon">Polling</span>
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-chevron-up fa-2xs"
+              style="padding-top: 25px; color: #ffffff"
+            ></i>
+          </div>
+          <div class="d_flex_colun align_items">
+            <i class="fa-solid fa-comment fa-2xl" style="color: #ffffff"></i>
+            <span class="name_icon">Chat</span>
+          </div>
+          <div class="d_flex_colun">
+            <i
+              class="fa-thin fa-record-vinyl fa-2xl"
+              style="color: #ffffff"
+            ></i>
+            <span class="name_icon">Record</span>
+          </div>
+          <div class="d_flex_colun align_items">
+            <i class="fa-brands fa-microsoft fa-2xl" style="color: #ffffff"></i>
+            <span class="name_icon">Breakout Room</span>
+          </div>
+          <div class="d_flex_colun align_items">
+            <i class="fa-solid fa-ellipsis fa-2xl" style="color: #ffffff"></i>
+            <span class="name_icon">More</span>
+          </div>
+        </div>
+
+        <div class="d_flex justify_content">
+          <div class="bnt_meeting">
+            <button class="meeting">End Meeting</button>
           </div>
         </div>
       </div>

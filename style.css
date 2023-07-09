@@ -11,10 +11,16 @@ body {
 header {
   height: 6.25rem;
 }
+
 footer {
   padding-top: 1.25rem;
   background-color: var(--zo-footer);
   height: 7.5rem;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* end global */
@@ -36,12 +42,23 @@ footer {
 .d_flex {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.125rem;
+}
+.d_flex_colun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+  padding-top: 20px;
 }
 .justify_content {
   justify-content: center;
 }
 .align_items {
   align-items: center;
+}
+.justify {
+  justify-content: space-between;
 }
 .mrg_botton {
   margin-bottom: 1.25rem;
@@ -71,20 +88,20 @@ header div {
   right: 0.5rem;
   top: 0.5rem;
 }
-header a {
-  text-decoration: none;
-
+button {
+  background-color: var(--zo-light-dark);
   color: var(--zo-light);
-}
-.link {
+  border-radius: 5px;
   font-weight: 600;
   font-size: 1.25rem;
+}
+.link {
   padding: 0.75rem;
   background-color: var(--zo-light-dark);
 }
 /* end header */
 /* main */
-.d_flex > div {
+.scroll > div {
   position: relative;
   margin: 0.3125rem;
 }
@@ -107,14 +124,22 @@ h2 {
 }
 /* end main */
 /* footer */
-h3 {
+.name_icon {
   color: var(--zo-light);
   font-size: 1.25rem;
   padding-top: 1.125rem;
+  padding-right: 0.5rem;
 }
 .pd_left {
   padding-left: 0.5rem;
 }
 .pd_left_2 {
   padding-left: 1.5rem;
+}
+.meeting {
+  padding: 2.1875rem;
+  color: var(--zo-btn-text);
+}
+.bnt_meeting {
+  height: 100%;
 }
